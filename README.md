@@ -5,7 +5,9 @@ Repository Link: (https://github.com/Vijayarajamayuri/Practice_with_Pig)
  
 # Instructions:
 ##Tools Required :
-Cloudera
-Virtual Box
+<b>Cloudera</b>
+<br>
+<b>
+Virtual Box</b>
 
 
