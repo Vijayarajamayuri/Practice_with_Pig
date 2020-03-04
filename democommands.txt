@@ -1,0 +1,29 @@
+
+//group operator
+
+
+student = LOAD '/Data/data.txt' USING PigStorage(',') as (id:int, fname:chararray, lname:chararray, age:int, phone:chararray, city:chararray);
+grp_data = GROUP student by age;
+DUMP grp_data;
+
+
+//order by operator
+
+student = LOAD '/Data/data.txt' USING PigStorage(',') as (id:int, fname:chararray, lname:chararray, age:int, phone:chararray, city:chararray);
+order_data = ORDER student by age DESC;
+
+(OR)
+
+order_data  = ORDER student by age ASC;
+
+DUMP order_data;
+
+
+//foreach operator
+
+student = LOAD '/Data/data.txt' USING PigStorage(',') as (id:int, fname:chararray, lname:chararray, age:int, phone:chararray, city:chararray);
+
+foreach_data = FOREACH student GENERATE id,age,city;
+
+DUMP foreach_data
+
