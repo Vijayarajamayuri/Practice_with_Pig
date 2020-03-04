@@ -11,4 +11,11 @@ Repository Link: (https://github.com/Vijayarajamayuri/Practice_with_Pig)
 <b>
 Virtual Box</b>
 
+# References:
+
+(https://www.tutorialspoint.com/apache_pig/)
+
+Video Link: (https://www.youtube.com/watch?v=GG-VRm6XnNk)
+
+
 
